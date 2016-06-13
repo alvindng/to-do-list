@@ -5,8 +5,15 @@
 .do {
   cursor: pointer;
   color: #0088cc;
+  list-style-type: none;
+  margin-top: 1em;
 }
 
-.do:hover {
-  text-decoration: underline;
+.complete {
+  color: black;
+  list-style-type: none;
+}
+
+.edit {
+  display: none;
 }
