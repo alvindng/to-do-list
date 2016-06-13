@@ -36,6 +36,11 @@ $(function() {
       // console.log('remove');
       $(this).parent().remove();
       $('ul#complete').append('<li class="complete">' + $(this).parent().text() + "</li>");
+      var listItem = document.getElementsByClassName('liItem');
+      // console.log(listItem);
+      if (listItem.length === 0) {
+        alert('you are done');
+      }
     });
 
     $('.edit-button').click(function() {
