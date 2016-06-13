@@ -1,0 +1,12 @@
+.output {
+  display: none;
+}
+
+.do {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.do:hover {
+  text-decoration: underline;
+}
